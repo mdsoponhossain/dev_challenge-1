@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Dev-Challenge-01></Dev-Challenge-01></title>
+    <style>
+        .main{
+            display:flex;justify-content:center;align-items:center;margin:10px 50px;font-size: xx-large;padding: 10px;;
+        }
+        .child{
+            width:50%
+        }
+        img{
+            width:100%
+        }
+       h1, p{
+            padding:0px 100px;
+        }
+        button{
+            display:grid;justify-content: center;margin-left: 100px;height: 50px;padding-top: 15px;background-color: black;color: white
+        }
+        @media screen and (max-width:720px) {
+           .main{
+            flex-direction:column;
+           }
+           .child{
+            width:100%
+        }
+        img{
+            width:100%
+        }
+       h1, p{
+            padding:0px 10px;
+        } 
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main class="main">
+<div class="child"><img src="Scarecrow.png" alt=""></div>
+<div class="child">
+    <h1>I have bad news for you</h1>
+    <p>The page you are looking for might be removed or is temporarily unavailable</p>
+    <button>
+        BACK TO HOMEPAGE
+    </button>
+
+</div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
